@@ -15,6 +15,7 @@ class PostCreateForm extends Component
             'title' => $this->title,
             'content' => $this->content
         ]);
+        session()->flash('success','Post inserito correttamente');
     }
 
     public function render()
