@@ -12,6 +12,9 @@
           <li class="nav-item">
             <a class="nav-link" href="{{route('post.create')}}">Crea un post</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{route('post.table')}}">Tabella dei post</a>
+          </li>
 
 
           {{-- <li class="nav-item dropdown">
